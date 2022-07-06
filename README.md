@@ -35,15 +35,11 @@ Pagina para cadastrar leads na feira
 >>
 >>```Email```
 >>
->>```Site```
->>
->>```Instagram```
+>>```Site ou Instagram```
 >>
 >>```Telefone #1```
 >>
 >>```Telefone #2```
->>
->>```Telefone #3```
 >>
 >2 - Interesse
 >>Vendedores
@@ -68,9 +64,7 @@ Pagina para cadastrar leads na feira
 >>>
 >>>```Expansão```
 >>>
->>>```Colsultoria para a Franquia```
->>>
->>>```Colsultoria para o Negócio```
+>>>```Ajuda para encontrar a granquia ideal (obs.)```
 >>>
 >>Nivel de Interesse
 >>
@@ -80,7 +74,7 @@ Pagina para cadastrar leads na feira
 >>>
 >>>```3```
 >>>
->>```Entrar em contato mais rapido possivel? (botão)```
+>>```Ja pediu para enviar contrato (botão)```
 >>
 >>```Obs.```
 
