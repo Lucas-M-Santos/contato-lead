@@ -1,7 +1,10 @@
-:root {
-    --blue: linear-gradient(97.54deg, #00ade5 35.49%, #0182d2 165.37%);
-}
+@import url(style/header.css);
 
-body {
-    background: var(--blue);
+:root {
+    --bg: #f3f3f3;
+    --white: #ffffff;
+    --blue: #138cd4;
+    --blue-dark: #04448c;
+    --blue-gradient: linear-gradient(to bottom right, #00ade5, #178cd4, #0182d2);
+    --font-main: "Exo";
 }
