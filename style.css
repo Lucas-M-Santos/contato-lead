@@ -1,10 +1,18 @@
 @import url(style/header.css);
+@import url(style/banner.css);
 
 :root {
-    --bg: #f3f3f3;
+    --bgc: #f3f3f3;
     --white: #ffffff;
     --blue: #138cd4;
     --blue-dark: #04448c;
     --blue-gradient: linear-gradient(to bottom right, #00ade5, #178cd4, #0182d2);
     --font-main: "Exo";
+}
+
+body {
+    background-color: var(--bgc);
+    font-family: var(--font-main);
+    font-style: 16px;
+    font-weight: 400;
 }

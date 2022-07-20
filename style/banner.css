@@ -1,0 +1,25 @@
+.banner {
+    background: var(--blue-gradient);
+    color: var(--blue-dark);
+    text-align: center;
+    padding: 2em 3em;
+}
+
+.banner__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+}
+
+.banner__link {
+    text-decoration: none;
+    border: 2px solid var(--blue-dark);
+    border-radius: 24px;
+    color: var(--blue-dark);
+    padding: .5em;
+}
+
+.banner__link:active {
+    background: var(--blue-dark);
+    color: var(--white);
+}
