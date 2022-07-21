@@ -1,8 +1,9 @@
 @import url(style/header.css);
 @import url(style/banner.css);
+@import url(style/swiper.css);
 
 :root {
-    --bgc: #f3f3f3;
+    --bgc: #7774744a;
     --white: #ffffff;
     --blue: #138cd4;
     --blue-dark: #04448c;

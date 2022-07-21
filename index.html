@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>Cadatro de Leads</title>
 </head>
@@ -25,26 +26,52 @@
                 <li class="menu-list__item"><a href="#" class="menu-list__link">Grupo F&A</a></li>
                 <li class="menu-list__item"><a href="#" class="menu-list__link">Império Dos Cachos</a></li>
                 <li class="menu-list__item"><a href="#" class="menu-list__link">JMChueire</a></li>
-                <li class="menu-list__item"><a href="#" class="menu-list__link">Livia Pães</a></li>
-                <li class="menu-list__item"><a href="#" class="menu-list__link">Celularia</a></li>
-                <li class="menu-list__item"><a href="#" class="menu-list__link">Dona Waffle</a></li>
-                <li class="menu-list__item"><a href="#" class="menu-list__link">Make House</a></li>
-                <li class="menu-list__item"><a href="#" class="menu-list__link">Energ</a></li>
-                <li class="menu-list__item"><a href="#" class="menu-list__link">Pancho Stop</a></li>
             </ul>
             <img src="img/logo.svg" alt="Logo da Como" class="container__image">
         </div>
         <div class="container">
             <a href="#" class="container__link">
-                <img src="img/Usuário.svg" alt="" class="container__image">
+                <img src="img/Usuario.svg" alt="" class="container__image">
                 <p class="container__text">Meu Perfil</p>
             </a>
         </div>
     </header>
+
+
+
+
     <section class="banner">
         <h2 class="banner__title">Cadatre lead para a Como Franquear</h2>
         <a href="#" class="banner__link">Clique aqui para cadatrar</a>
     </section>
+    <section class="franquias">
+        <h2 class="franquias__title">Franquias</h2>
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/swiper-shawarma.svg" alt="Shawarma Food"></div>
+                <div class="swiper-slide"><img src="img/swiper-grupo-f&a.svg" alt="Grupo F&A"></div>
+                <div class="swiper-slide"><img src="img/swiper-energ.svg" alt="Energ Geradores"></div>
+                <div class="swiper-slide"><img src="img/swiper-como.svg" alt="Como Franquear"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 
 </html>
