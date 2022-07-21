@@ -16,9 +16,3 @@
     position: initial;
     margin: .5em 0;
 }
-
-
-.swiper-button-prev,
-.swiper-button-next {
-    display: none;
-}   
