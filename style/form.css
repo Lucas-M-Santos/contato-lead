@@ -1,0 +1,50 @@
+.form {
+    background: var(--white);
+    color: ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.fieldset {}
+
+.fieldset__number {
+    background: var(--blue-gradient);
+    color: var(--white);
+    font-size: 14px;
+    border-radius: 50%;
+}
+
+.fieldset__legend,
+.fieldset__title {
+    display: block;
+}
+
+.fieldset__legend {
+    color: var(--blue-gradient);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+.fieldset__title {
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+
+.fieldset__input {
+    font-family: var(--font-main);
+    color: var(--black);
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
+.fieldset__option {
+    display: block;
+}
+
+.fieldset__option,
+.fieldset__checkbox {
+    margin-bottom: 1em;
+}

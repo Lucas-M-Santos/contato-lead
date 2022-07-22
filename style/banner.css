@@ -11,6 +11,10 @@
     margin-bottom: 1.5em;
 }
 
+.banner__text {
+    font-weight: 500;
+}
+
 .banner__link {
     text-decoration: none;
     border: 2px solid var(--blue-dark);
