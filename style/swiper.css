@@ -8,11 +8,15 @@
     padding: 1em 0;
 }
 
+.swiper {
+    margin: 0 1em;
+}
+
 .swiper-slide img {
     width: 100%;
 }
 
 .swiper-pagination {
     position: initial;
-    margin: .5em 0;
+    margin: .75em 0;
 }
