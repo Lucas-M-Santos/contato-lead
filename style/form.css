@@ -1,23 +1,31 @@
 .form {
     background: var(--white);
-    color: ;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    margin: 1em;
+    margin: 5vw;
     padding: 1em;
 }
 
-.fieldset {}
+.fieldset {
+    margin-bottom: 2em;
+}
 
 .fieldset__number {
     background: var(--blue-gradient);
     color: var(--white);
-    font-size: 14px;
     border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    padding: 4px;
 }
 
 .fieldset__legend,
-.fieldset__title {
+.fieldset__title,
+.fieldset__option,
+.fieldset__checkbox {
     display: block;
 }
 
@@ -29,7 +37,7 @@
 }
 
 .fieldset__title {
-    margin-bottom: 0.5em;
+    margin-bottom: .75em;
     font-weight: 500;
 }
 
@@ -37,14 +45,39 @@
     font-family: var(--font-main);
     color: var(--black);
     font-size: 14px;
+    width: 50vw;
+    height: 2em;
+    border: 1px solid;
+    border-radius: 2px;
     margin-bottom: 1em;
 }
 
 .fieldset__option {
-    display: block;
+    margin-bottom: 0.75em;
 }
 
-.fieldset__option,
 .fieldset__checkbox {
-    margin-bottom: 1em;
+    margin-bottom: 0.75em;
+}
+
+.fieldset__text-box,
+.fieldset__text-box {
+    width: 70vw;
+    height: 5em;
+}
+
+.form__send {
+    background: var(--white);
+    color: var(--blue-dark);
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid var(--blue-dark);
+    border-radius: 5px;
+    width: 80vw;
+    height: 3em;
+}
+
+.form__send:active {
+    background: var(--blue-dark);
+    color: var(--white);
 }
