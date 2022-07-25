@@ -53,15 +53,12 @@
     padding: 0 1em;
 }
 
-.fieldset__option {
+.fieldset__option,
+.fieldset__checkbox,
+.fieldset__text-box {
     margin-bottom: 0.75em;
 }
 
-.fieldset__checkbox {
-    margin-bottom: 0.75em;
-}
-
-.fieldset__text-box,
 .fieldset__text-box {
     width: 70vw;
     height: 5em;
