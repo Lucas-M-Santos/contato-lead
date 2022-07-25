@@ -50,6 +50,7 @@
     border: 1px solid;
     border-radius: 2px;
     margin-bottom: 1em;
+    padding: 0 1em;
 }
 
 .fieldset__option {
@@ -77,7 +78,7 @@
     height: 3em;
 }
 
-.form__send:active {
+.form__send:hover {
     background: var(--blue-dark);
     color: var(--white);
 }
