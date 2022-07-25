@@ -78,7 +78,7 @@
     height: 3em;
 }
 
-.form__send:hover {
+.form__send:active {
     background: var(--blue-dark);
     color: var(--white);
 }
