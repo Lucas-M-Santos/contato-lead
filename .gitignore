@@ -16,17 +16,3 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
-
-
-    <section class="franquias">
-        <h2 class="franquias__title">Franquias Food</h2>
-        <div class="swiper">
-            <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><a href="#"><img src="img/swiper-shawarma.svg" alt="Shawarma Food"></a></div>
-                <div class="swiper-slide"><a href="#"><img src="img/swiper-grupo-f&a.svg" alt="Grupo F&A"></a></div>
-                <div class="swiper-slide"><a href="#"><img src="img/swiper-energ.svg" alt="Energ Geradores"></a></div>
-                <div class="swiper-slide"><a href="#"><img src="img/swiper-como.svg" alt="Como Franquear"></a></div>
-            </div>
-        </div>
-    </section>
