@@ -1,6 +1,6 @@
 .banner {
-    background: var(--blue-gradient);
-    color: var(--blue-dark);
+    background: var(--primary);
+    color: var(--white);
     text-align: center;
     padding: 2em 3em;
 }
@@ -17,13 +17,13 @@
 
 .banner__link {
     text-decoration: none;
-    border: 2px solid var(--blue-dark);
+    border: 2px solid var(--secondary);
     border-radius: 24px;
-    color: var(--blue-dark);
+    color: var(--white);
     padding: .5em;
 }
 
 .banner__link:active {
-    background: var(--blue-dark);
+    background: var(--secondary);
     color: var(--white);
 }

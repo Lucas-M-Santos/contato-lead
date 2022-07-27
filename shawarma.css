@@ -1,14 +1,13 @@
 @import url(style/header.css);
 @import url(style/banner.css);
-@import url(style/swiper.css);
 @import url(style/form.css);
 
 :root {
     --bgc: #ebecee;
     --white: #ffffff;
     --black: #000000;
-    --primary: #138cd4;
-    --secondary: #04448c;
+    --primary: #000a60;
+    --secondary: #6f021d;
     --font-main: "Exo";
 }
 
@@ -23,7 +22,7 @@ body {
 .container__menu {
     width: 24px;
     height: 24px;
-    background: url(img/menu.svg);
+    background: url(img/menu-shawarma-food.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;

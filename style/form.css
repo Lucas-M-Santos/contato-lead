@@ -11,7 +11,7 @@
 }
 
 .fieldset__number {
-    background: var(--blue-gradient);
+    background: var(--secondary);
     color: var(--white);
     border-radius: 50%;
     width: 16px;
@@ -30,7 +30,7 @@
 }
 
 .fieldset__legend {
-    color: var(--blue-gradient);
+    color: var(--secondary);
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1.5em;
@@ -66,16 +66,16 @@
 
 .form__send {
     background: var(--white);
-    color: var(--blue-dark);
+    color: var(--secondary);
     font-weight: 700;
     text-transform: uppercase;
-    border: 3px solid var(--blue-dark);
+    border: 3px solid var(--secondary);
     border-radius: 5px;
     width: 80vw;
     height: 3em;
 }
 
 .form__send:hover {
-    background: var(--blue-dark);
+    background: var(--secondary);
     color: var(--white);
 }
