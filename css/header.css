@@ -38,6 +38,7 @@
 }
 
 .menu-list__title {
+    color: var(--secondary);
     font-weight: 700;
 }
 

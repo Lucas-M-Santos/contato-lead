@@ -34,5 +34,5 @@ body {
 }
 
 .container__button:checked~.container__label {
-    background: var(--secondary);
+    background: var(--primary);
 }
