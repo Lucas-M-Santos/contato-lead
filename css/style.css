@@ -29,10 +29,10 @@ body {
     display: inline-block;
 }
 
-.container__button:hover~.container__label>.container__menu {
+.container__button:checked~.container__label>.container__menu {
     background-image: url(../img/menu_transparent.svg);
 }
 
-.container__button:hover~.container__label {
+.container__button:checked~.container__label {
     background: var(--primary);
 }

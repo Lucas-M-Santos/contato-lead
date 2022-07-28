@@ -15,7 +15,7 @@
     padding: 1em;
 }
 
-.container__button:hover~.menu-list {
+.container__button:checked~.menu-list {
     display: block;
 }
 
