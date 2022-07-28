@@ -50,3 +50,11 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
+.menu-list__item:hover {
+    background: var(--primary);
+}
+
+.menu-list__link:hover {
+    -webkit-text-fill-color: var(--white);
+}
