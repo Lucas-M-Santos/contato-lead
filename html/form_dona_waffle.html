@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style_dona_waffle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__button">
+            <label for="menu" class="container__label">
+                <span class="container__menu container__image"></span>
+            </label>
+
+            <ul class="menu-list">
+                <li class="menu-list__title">MENU</li>
+                <li class="menu-list__item"><a href="../index.html" class="menu-list__link">Principal</a></li>
+                <li class="menu-list__item"><a href="form_como_franquear.html" class="menu-list__link">Como Franquear</a></li>
+                <li class="menu-list__title">Franquias</li>
+                <li class="menu-list__item"><a href="form_grupo_fea.html" class="menu-list__link">Grupo F&A</a></li>
+                <li class="menu-list__item"><a href="form_imperio_dos_cachos.html" class="menu-list__link">Império dos Cachos</a></li>
+                <li class="menu-list__item"><a href="form_jmchueire.html" class="menu-list__link">JMChueire</a></li>
+                <li class="menu-list__item"><a href="form_celularia.html" class="menu-list__link">Celularia</a></li>
+                <li class="menu-list__item"><a href="form_make_house.html" class="menu-list__link">Make House</a></li>
+                <li class="menu-list__item"><a href="form_energ_geradores.html" class="menu-list__link">Energ</a></li>
+                <li class="menu-list__title">Franquias Food</li>
+                <li class="menu-list__item"><a href="form_shawarma_food.html" class="menu-list__link">Shawarma Food</a></li>
+                <li class="menu-list__item"><a href="form_livia_paes.html" class="menu-list__link">Lívia Pães</a></li>
+                <li class="menu-list__item"><a href="form_dona_waffle.html" class="menu-list__link">Dona Waffle</a></li>
+                <li class="menu-list__item"><a href="form_panch_stop.html" class="menu-list__link">Panch Stop</a></li>
+            </ul>
+            <img src="../img/logo_dona_waffle.svg" alt="Logo Dona Waffle" class="container__image">
+        </div>
+
+        <div class="container">
+            <a href="#" class="container__link">
+                <img src="../img/user_dona_waffle.svg" alt="Perfil" class="container__image">
+                <p class="container__text">Meu Perfil</p>
+            </a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner__title">Cadastro para Dona Waffle</h2>
+        <p class="banner__text">foram cadastrados 000 clientes</p>
+    </section>
+
+
+    <form action="" class="form">
+
+
+        <fieldset class="fieldset">
+            <legend class="fieldset__legend"><span class="fieldset__number">1</span> Contato</legend>
+
+            <label for="nome_lead" class="fieldset__title">Nome do Lead:</label>
+            <input type="text" id="nome_lead" class="fieldset__input" placeholder="Carlinhos Cambalhota">
+
+            <label for="nome_empresa" class="fieldset__title">Nome da Empresa:</label>
+            <input type="text" id="nome_empresa" class="fieldset__input" placeholder="Cambalhota Eireli">
+
+            <label for="email" class="fieldset__title">Email:</label>
+            <input type="email" id="email" class="fieldset__input" placeholder="carlos.camba@gmail.com">
+
+            <label for="site" class="fieldset__title">Site ou instagram:</label>
+            <input type="url" id="site" class="fieldset__input" placeholder="cambalhota.com.br">
+
+            <label for="telefone1" class="fieldset__title">Telefone #1:</label>
+            <input type="number" id="telefone1" class="fieldset__input" placeholder="(xx) xxxxx-xxxx">
+
+            <label for="telefone2" class="fieldset__title">Telefone #2:</label>
+            <input type="number" id="telefone2" class="fieldset__input" placeholder="(xx) xxxxx-xxxx">
+
+        </fieldset>
+
+
+        <fieldset class="fieldset">
+            <legend class="fieldset__legend"><span class="fieldset__number">2</span> Interesse</legend>
+
+            <label class="fieldset__title">Nível de Interesse:</label>
+            <label for="radio-baixo" class="fieldset__option"><input type="radio" name="nivel-interesse" value="1-baixo"
+                    id="radio-baixo"> 1 - Baixo</label>
+            <label for="radio-medio" class="fieldset__option"><input type="radio" name="nivel-interesse" value="2-medio"
+                    id="radio-medio"> 2 - Médio</label>
+            <label for="radio-alto" class="fieldset__option"><input type="radio" name="nivel-interesse" value="3-alto"
+                    id="radio-alto"> 3 - Alto</label>
+
+            <label for="observacao" class="fieldset__title">Observação:</label>
+            <textarea cols="70" rows="10" id="observacao" class="fieldset__text-box"></textarea>
+
+            <label class="fieldset__checkbox"><input type="checkbox">Gostaria de entrar em contato o mais rapido
+                possivel?</label>
+
+        </fieldset>
+
+        <input type="submit" value="Enviar" class="form__send">
+
+    </form>
+</body>
+
+</html>
