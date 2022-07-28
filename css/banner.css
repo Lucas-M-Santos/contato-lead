@@ -23,7 +23,7 @@
     padding: .5em;
 }
 
-.banner__link:active {
+.banner__link:hover {
     background: var(--secondary);
     color: var(--white);
 }
