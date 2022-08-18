@@ -23,16 +23,19 @@
             <ul class="menu-list">
                 <li class="menu-list__title">MENU</li>
                 <li class="menu-list__item"><a href="../index.html" class="menu-list__link">Principal</a></li>
-                <li class="menu-list__item"><a href="form_como_franquear.html" class="menu-list__link">Como Franquear</a></li>
+                <li class="menu-list__item"><a href="form_como_franquear.html" class="menu-list__link">Como
+                        Franquear</a></li>
                 <li class="menu-list__title">Franquias</li>
                 <li class="menu-list__item"><a href="form_grupo_fea.html" class="menu-list__link">Grupo F&A</a></li>
-                <li class="menu-list__item"><a href="form_imperio_dos_cachos.html" class="menu-list__link">Império dos Cachos</a></li>
+                <li class="menu-list__item"><a href="form_imperio_dos_cachos.html" class="menu-list__link">Império dos
+                        Cachos</a></li>
                 <li class="menu-list__item"><a href="form_jmchueire.html" class="menu-list__link">JMChueire</a></li>
                 <li class="menu-list__item"><a href="form_celularia.html" class="menu-list__link">Celularia</a></li>
                 <li class="menu-list__item"><a href="form_make_house.html" class="menu-list__link">Make House</a></li>
                 <li class="menu-list__item"><a href="form_energ_geradores.html" class="menu-list__link">Energ</a></li>
                 <li class="menu-list__title">Franquias Food</li>
-                <li class="menu-list__item"><a href="form_shawarma_food.html" class="menu-list__link">Shawarma Food</a></li>
+                <li class="menu-list__item"><a href="form_shawarma_food.html" class="menu-list__link">Shawarma Food</a>
+                </li>
                 <li class="menu-list__item"><a href="form_livia_paes.html" class="menu-list__link">Lívia Pães</a></li>
                 <li class="menu-list__item"><a href="form_dona_waffle.html" class="menu-list__link">Dona Waffle</a></li>
                 <li class="menu-list__item"><a href="form_panch_stop.html" class="menu-list__link">Panch Stop</a></li>
@@ -54,29 +57,35 @@
     </section>
 
 
-    <form action="" class="form">
+    <form action="https://sheetdb.io/api/v1/hcag13pmtxly9" method="post" id="sheetdb-form" class="form">
 
 
         <fieldset class="fieldset">
             <legend class="fieldset__legend"><span class="fieldset__number">1</span> Contato</legend>
 
+            <label for="vendedor" class="fieldset__title">Vendedor</label>
+            <select name="vendedor" id="vendedor" class="fieldset__input">
+                <option value="testes">Teste</option>
+                <option label="Textix" value="testix"></option>
+            </select>
+
             <label for="nome_lead" class="fieldset__title">Nome do Lead:</label>
-            <input type="text" id="nome_lead" class="fieldset__input" placeholder="Carlinhos Cambalhota">
+            <input type="text" name="nome" id="nome_lead" class="fieldset__input" placeholder="Carlinhos Cambalhota">
 
             <label for="nome_empresa" class="fieldset__title">Nome da Empresa:</label>
-            <input type="text" id="nome_empresa" class="fieldset__input" placeholder="Cambalhota Eireli">
+            <input type="text" name="EMPRESA" id="nome_empresa" class="fieldset__input" placeholder="Cambalhota Eireli">
 
             <label for="email" class="fieldset__title">Email:</label>
-            <input type="email" id="email" class="fieldset__input" placeholder="carlos.camba@gmail.com">
+            <input type="email" name="EMAIL" id="email" class="fieldset__input" placeholder="carlos.camba@gmail.com">
 
             <label for="site" class="fieldset__title">Site ou instagram:</label>
-            <input type="url" id="site" class="fieldset__input" placeholder="cambalhota.com.br">
+            <input type="text" name="SITE/INSTA" id="site" class="fieldset__input" placeholder="cambalhota.com.br">
 
             <label for="telefone1" class="fieldset__title">Telefone #1:</label>
-            <input type="number" id="telefone1" class="fieldset__input" placeholder="(xx) xxxxx-xxxx">
+            <input type="number" name="TEL1" id="telefone1" class="fieldset__input" placeholder="(xx) xxxxx-xxxx">
 
             <label for="telefone2" class="fieldset__title">Telefone #2:</label>
-            <input type="number" id="telefone2" class="fieldset__input" placeholder="(xx) xxxxx-xxxx">
+            <input type="number" name="TEL2" id="telefone2" class="fieldset__input" placeholder="(xx) xxxxx-xxxx">
 
         </fieldset>
 
@@ -85,24 +94,40 @@
             <legend class="fieldset__legend"><span class="fieldset__number">2</span> Interesse</legend>
 
             <label class="fieldset__title">Nível de Interesse:</label>
-            <label for="radio-baixo" class="fieldset__option"><input type="radio" name="nivel-interesse" value="1-baixo"
+            <label for="radio-baixo" class="fieldset__option"><input type="radio" name="NÍVEL" value="1-baixo"
                     id="radio-baixo"> 1 - Baixo</label>
-            <label for="radio-medio" class="fieldset__option"><input type="radio" name="nivel-interesse" value="2-medio"
+            <label for="radio-medio" class="fieldset__option"><input type="radio" name="NÍVEL" value="2-medio"
                     id="radio-medio"> 2 - Médio</label>
-            <label for="radio-alto" class="fieldset__option"><input type="radio" name="nivel-interesse" value="3-alto"
+            <label for="radio-alto" class="fieldset__option"><input type="radio" name="NÍVEL" value="3-alto"
                     id="radio-alto"> 3 - Alto</label>
 
             <label for="observacao" class="fieldset__title">Observação:</label>
-            <textarea cols="70" rows="10" id="observacao" class="fieldset__text-box"></textarea>
+            <textarea cols="70" rows="10" name="OBSERVAÇÃO" id="observacao" class="fieldset__text-box"></textarea>
 
-            <label class="fieldset__checkbox"><input type="checkbox">Gostaria de entrar em contato o mais rapido
-                possivel?</label>
+            <label class="fieldset__checkbox">
+                <input type="checkbox" name="ASAP">Gostaria de entrar em contato o mais rapido possivel?</label>
 
         </fieldset>
 
         <input type="submit" value="Enviar" class="form__send">
 
     </form>
+
+    <script>
+        var form = document.getElementById('sheetdb-form');
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(form.action, {
+                method: "POST",
+                body: new FormData(document.getElementById("sheetdb-form")),
+            }).then(
+                response => response.json()
+            ).then((html) => {
+                // you can put any JS code here
+                alert('success')
+            });
+        });
+    </script>
 </body>
 
 </html>
