@@ -6,8 +6,9 @@ form.addEventListener("submit", e => {
         body: new FormData(document.getElementById("sheetdb-form")),
     }).then(
         response => response.json()
-    ).then((html) => {
-        // you can put any JS code here
-        alert('success')
-    });
+    ).then(
+        response => alert('Formulário enviado!', response)
+    ).catch(
+        error => alert('Error: Formulário não enviado.', error.message)
+    );
 });

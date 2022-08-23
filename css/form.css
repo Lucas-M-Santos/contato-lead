@@ -79,3 +79,9 @@
     background: var(--secondary);
     color: var(--white);
 }
+
+/**added hidden (.display-none) checkbox and am not using .fieldset__checkbox**/
+
+.display-none {
+    display: none;
+}
