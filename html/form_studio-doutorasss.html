@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style_studio-doutorasss.css">
+    <title>Formulário Studio Doutorasss</title>
+    <link rel="icon" href="../img/logo.svg" type="image/png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__button">
+            <label for="menu" class="container__label">
+                <span class="container__menu container__image"></span>
+            </label>
+
+            <ul class="menu-list">
+                <li class="menu-list__title">MENU</li>
+                <li class="menu-list__item"><a href="../index.html" class="menu-list__link">Principal</a></li>
+                <li class="menu-list__item"><a href="form_como_franquear.html" class="menu-list__link">Como Franquear</a></li>
+                <li class="menu-list__title">Franquias</li>
+                <li class="menu-list__item"><a href="form_2-polos.html" class="menu-list__link">Grupo F&A</a></li>
+                <li class="menu-list__item"><a href="form_boto-key.html" class="menu-list__link">Império dos Cachos</a></li>
+                <li class="menu-list__item"><a href="form_pede-no-bairro.html" class="menu-list__link">JMChueire</a></li>
+                <li class="menu-list__item"><a href="form_studio-doutorasss.html" class="menu-list__link">Celularia</a></li>
+            </ul>
+            <img src="../img/logo_studio-doutorasss.svg" alt="Logo Studio Doutorasss" class="container__image">
+        </div>
+
+        <div class="container">
+            <a href="#" class="container__link">
+                <img src="../img/user_studio-doutorasss.svg" alt="Perfil" class="container__image">
+                <p class="container__text">Meu Perfil</p>
+            </a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner__title">Cadastro para Studio Doutorasss</h2>
+        <p class="banner__text">cadastre os seus leads aqui</p>
+    </section>
+
+
+    <form action="https://sheetdb.io/api/v1/7un8b7gwa3t3b" method="post" id="sheetdb-form" class="form">
+
+
+        <fieldset class="fieldset">
+            <legend class="fieldset__legend"><span class="fieldset__number">1</span> Contato</legend>
+
+            <input type="checkbox" name="Franquia" value="Studio Doutorasss" class="display-none" checked>
+
+            <label for="vendedor" class="fieldset__title">Vendedor</label>
+            <select name="Vendedor" id="vendedor" class="fieldset__input">
+                <option value="Carlos">Carlos</option>
+                <option value="Fred">Fred</option>
+                <option value="João Pedro">João Pedro</option>
+                <option value="Leonardo">Leonardo</option>
+            </select>
+
+            <label for="nome_lead" class="fieldset__title">Nome do Lead:</label>
+            <input type="text" name="Nome" id="nome_lead" class="fieldset__input" placeholder="Fulano Souza">
+
+            <label for="email" class="fieldset__title">Email:</label>
+            <input type="email" name="email" id="email" class="fieldset__input" placeholder="fulano.souza38@gmail.com">
+
+            <label for="site" class="fieldset__title">Site ou instagram:</label>
+            <input type="text" name="Site/Insta" id="site" class="fieldset__input" placeholder="@souburguer_oficial">
+
+            <label for="telefone1" class="fieldset__title">Telefone #1:</label>
+            <input type="tel" name="Tel1" id="telefone1" class="fieldset__input" placeholder="(xx) xxxxx-xxxx">
+
+            <label for="telefone2" class="fieldset__title">Telefone #2:</label>
+            <input type="tel" name="Tel2" id="telefone2" class="fieldset__input" placeholder="(xx) xxxxx-xxxx">
+
+        </fieldset>
+
+
+        <fieldset class="fieldset">
+            <legend class="fieldset__legend"><span class="fieldset__number">2</span> Interesse</legend>
+
+            <label class="fieldset__title">Nível de Interesse:</label>
+            <label for="radio-baixo" class="fieldset__option"><input type="radio" name="Nível" value="1-baixo"
+                    id="radio-baixo"> 1 - Baixo</label>
+            <label for="radio-medio" class="fieldset__option"><input type="radio" name="Nível" value="2-medio"
+                    id="radio-medio"> 2 - Médio</label>
+            <label for="radio-alto" class="fieldset__option"><input type="radio" name="Nível" value="3-alto"
+                    id="radio-alto"> 3 - Alto</label>
+
+            <label for="observacao" class="fieldset__title">Observação:</label>
+            <textarea cols="70" rows="10" name="Observação" id="observacao" class="fieldset__text-box"></textarea>
+
+        </fieldset>
+
+        <input type="submit" value="Enviar" class="form__send">
+
+    </form>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
