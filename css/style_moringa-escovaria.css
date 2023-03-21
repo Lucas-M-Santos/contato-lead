@@ -1,14 +1,13 @@
 @import url(header.css);
 @import url(banner.css);
 @import url(form.css);
-@import url(footer.css);
 
 :root {
     --bgc: #ebecee;
     --white: #ffffff;
     --black: #000000;
-    --primary: #;
-    --secondary: #;
+    --primary: #283022;
+    --secondary: #cca542;
     --font-main: "Exo";
 }
 

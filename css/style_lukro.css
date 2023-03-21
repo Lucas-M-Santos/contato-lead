@@ -1,14 +1,13 @@
 @import url(header.css);
 @import url(banner.css);
 @import url(form.css);
-@import url(footer.css);
 
 :root {
     --bgc: #ebecee;
     --white: #ffffff;
     --black: #000000;
-    --primary: #;
-    --secondary: #;
+    --primary: #0475bc;
+    --secondary: #74c34c;
     --font-main: "Exo";
 }
 
@@ -23,7 +22,7 @@ body {
 .container__menu {
     width: 24px;
     height: 24px;
-    background: url(../img/menu_lukro);
+    background: url(../img/menu_lukro.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
