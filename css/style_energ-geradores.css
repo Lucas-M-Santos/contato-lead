@@ -22,7 +22,7 @@ body {
 .container__menu {
     width: 24px;
     height: 24px;
-    background: url(../img/menu_energ_geradores.svg);
+    background: url(../img/menu_energ-geradores.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
