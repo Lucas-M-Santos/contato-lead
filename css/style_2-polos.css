@@ -1,0 +1,37 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(form.css);
+
+:root {
+    --bgc: #ebecee;
+    --white: #ffffff;
+    --black: #000000;
+    --primary: #1b2261;
+    --secondary: #f2d217;
+    --font-main: "Exo";
+}
+
+body {
+    background-color: var(--bgc);
+    color: var(--primary);
+    font-family: var(--font-main);
+    font-style: 16px;
+    font-weight: 400;
+}
+
+.container__menu {
+    width: 24px;
+    height: 24px;
+    background: url(../img/menu_2-polos.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.container__button:checked~.container__label>.container__menu {
+    background-image: url(../img/menu_transparent.svg);
+}
+
+.container__button:checked~.container__label {
+    background: var(--secondary);
+}
